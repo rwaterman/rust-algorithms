@@ -1,3 +1,5 @@
+mod math;
+
 fn main() {
-    println!("Hello, world!");
+  println!("{:}", math::gcd(5, 15));
 }
