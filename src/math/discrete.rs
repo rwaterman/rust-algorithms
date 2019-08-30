@@ -6,6 +6,15 @@ pub fn gcd(p: u64, q: u64) -> u64 {
   return gcd(q, r);
 }
 
+fn factorial(n: u64) -> u64 {
+  println!("start");
+  if n == 0 {
+    1
+  } else {
+    n * factorial(n - 1)
+  }
+}
+
 #[cfg(test)]
 mod tests {
   use crate::math::discrete::gcd;
