@@ -1,9 +1,2 @@
 # Description
-Master collection of algorithms for practice purposes.
-
-# Sources
-* Algorithms, 4th ed./Sedgewick
-  * Note: translated from original Java source code
-
-# TODO
-* Break out into a Rust Library
+My collection of algorithms that I find personally useful or at least interesting. Implemented in Rust to practice idiomatic language conventions and to serve as a personal reference.

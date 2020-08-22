@@ -1,13 +1,15 @@
-pub fn max(slice: &[i64]) -> i64 {
+pub fn max(slice: &[i32]) -> i32 {
   let mut max = slice[0];
-
   for &var in slice {
     if var > max {
       max = var;
     }
   }
+  max
+}
 
-  return max;
+fn sum(values: &[i32]) -> i32 {
+  values.iter().sum()
 }
 
 #[cfg(test)]

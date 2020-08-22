@@ -15,6 +15,16 @@ fn factorial(n: u64) -> u64 {
   }
 }
 
+fn clamp(x: f64, x1: f64, x2: f64) -> f64 {
+  if x < x1 {
+    x1
+  } else if x > x2 {
+    x2
+  } else {
+    x
+  }
+}
+
 #[cfg(test)]
 mod tests {
   use crate::math::discrete::gcd;
